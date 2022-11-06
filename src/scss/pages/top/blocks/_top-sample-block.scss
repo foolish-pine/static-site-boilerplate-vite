@@ -1,0 +1,23 @@
+/* ----------------------------------
+	top-sample-block
+------------------------------------ */
+@use "/scss/global" as *;
+
+h1 {
+	font-size: rem(36);
+	color: $c_black;
+}
+
+.top-sample-block {
+	padding-top: 20px;
+	padding-right: 30px;
+	padding-bottom: 32px;
+	padding-left: 12px;
+	font-size: rem(24);
+
+	@include mq_hover {
+		&:hover {
+			color: red;
+		}
+	}
+}

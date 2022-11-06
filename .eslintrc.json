@@ -1,0 +1,22 @@
+{
+	"env": {
+		"es6": true,
+		"browser": true,
+		"node": true
+	},
+	"globals": {},
+	"parserOptions": {
+		"sourceType": "module"
+	},
+	"extends": ["eslint:recommended", "prettier"],
+	"plugins": ["import", "unused-imports"],
+	"rules": {
+		"no-alert": "warn",
+		"no-console": "warn",
+		"no-unused-vars": "warn",
+		"no-var": "warn",
+		"eqeqeq": "warn",
+		"import/order": [2, { "alphabetize": { "order": "asc" } }],
+		"unused-imports/no-unused-imports": "error"
+	}
+}

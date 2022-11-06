@@ -1,0 +1,92 @@
+/* ----------------------------------
+	mediaquery
+	メディアクエリのmixin
+------------------------------------ */
+$breakPoint_xxl: 1365px;
+$breakPoint_xl: 1199px;
+$breakPoint_lg: 991px;
+$breakPoint_md: 767px;
+$breakPoint_sm: 575px;
+
+// max-width
+@mixin mq_max_xxl {
+	@media (max-width: $breakPoint_xxl) {
+		@content;
+	}
+}
+
+@mixin mq_max_xl {
+	@media (max-width: $breakPoint_xl) {
+		@content;
+	}
+}
+
+@mixin mq_max_lg {
+	@media (max-width: $breakPoint_lg) {
+		@content;
+	}
+}
+
+@mixin mq_max_md {
+	@media (max-width: $breakPoint_md) {
+		@content;
+	}
+}
+
+@mixin mq_max_sm {
+	@media (max-width: $breakPoint_sm) {
+		@content;
+	}
+}
+
+// カスタムmax-widthメディアクエリ
+@mixin mq_max_custom($breakPoint) {
+	@media (max-width: $breakPoint) {
+		@content;
+	}
+}
+
+// min-width
+@mixin mq_min_sm {
+	@media (min-width: $breakPoint_sm + 1) {
+		@content;
+	}
+}
+
+@mixin mq_min_md {
+	@media (min-width: $breakPoint_md + 1) {
+		@content;
+	}
+}
+
+@mixin mq_min_lg {
+	@media (min-width: $breakPoint_lg + 1) {
+		@content;
+	}
+}
+
+@mixin mq_min_xl {
+	@media (min-width: $breakPoint_xl + 1) {
+		@content;
+	}
+}
+
+@mixin mq_min_xxl {
+	@media (min-width: $breakPoint_xxl + 1) {
+		@content;
+	}
+}
+
+// カスタムmin-widthメディアクエリ
+@mixin mq_min_custom($breakPoint) {
+	@media (min-width: $breakPoint) {
+		@content;
+	}
+}
+
+// hover動作が使えるかつ、ポインターがマウスポインターのデバイスのみを指定するメディアクエリ
+@mixin mq_hover {
+	@media (hover: hover) and (pointer: fine) {
+		@content;
+	}
+}

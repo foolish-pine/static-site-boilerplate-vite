@@ -1,0 +1,15 @@
+/* ----------------------------------
+	u-hover-style
+	ホバーアクションのスタイル
+------------------------------------ */
+@use "/scss/global" as *;
+
+.u-hover-transparent {
+	transition: opacity 0.4s;
+
+	@include mq_hover {
+		&:hover {
+			opacity: 0.6;
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"editor.codeActionsOnSave": {
+		"source.fixAll.stylelint": true,
+		"source.addMissingImports": true,
+		"source.fixAll.eslint": true
+	},
+	"stylelint.validate": ["scss"],
+	"css.validate": false,
+	"scss.validate": false,
+	"eslint.format.enable": false,
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true
+	},
+	"[css]": {
+		"editor.formatOnSave": false
+	},
+	"[scss]": {
+		"editor.formatOnSave": true
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true,
+		"javascript.preferences.importModuleSpecifier": "non-relative"
+	},
+	"[json][jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true
+	}
+}

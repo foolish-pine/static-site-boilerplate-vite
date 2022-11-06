@@ -1,0 +1,21 @@
+/* ----------------------------------
+	u-device-only
+	画面幅に応じた表示・非表示用スタイル
+------------------------------------ */
+@use "/scss/global" as *;
+
+.u-mobile-only {
+	display: none;
+
+	@include mq_max_md {
+		display: block;
+	}
+}
+
+.u-desktop-only {
+	display: block;
+
+	@include mq_max_md {
+		display: none;
+	}
+}

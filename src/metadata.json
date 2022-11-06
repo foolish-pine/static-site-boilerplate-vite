@@ -1,0 +1,12 @@
+{
+	"/index.html": {
+		"pageName": "top",
+		"title": "トップページ",
+		"description": "トップページです。"
+	},
+	"/about.html": {
+		"pageName": "about",
+		"title": "aboutページ",
+		"description": "aboutページ"
+	}
+}

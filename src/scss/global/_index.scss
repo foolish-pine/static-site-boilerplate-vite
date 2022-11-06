@@ -1,0 +1,7 @@
+/* ----------------------------------
+	index
+	globalディレクトリのファイルを@forwardしてまとめる
+------------------------------------ */
+@forward "/scss/global/functions";
+@forward "/scss/global/mixins";
+@forward "/scss/global/variables";

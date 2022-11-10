@@ -35,7 +35,7 @@ Visual Studio Codeの設定ファイル。
 EditorConfigの設定ファイル。使用するルールについては後述。
 
 - `.eslintrc.json`  
-ESlintの設定ファイル。使用するルールについては後述。
+ESLintの設定ファイル。使用するルールについては後述。
 
 - `.gitignore`  
 Gitの追跡対象にしないファイル・ディレクトリを記述する。

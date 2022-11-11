@@ -60,7 +60,7 @@ PostCSSの設定ファイル。
 本ドキュメント。
 
 - `vite.config.js`  
-viteの設定ファイル。
+Viteの設定ファイル。
 
 ## コマンド
 - `dev`  

@@ -1,5 +1,5 @@
-# 静的サイトボイラープレート（Vite + Dart Sass + PostCSS + Prettier + stylelint + ESLint）
-- 静的サイト制作のためのボイラープレートです
+# Web制作ボイラープレート（Vite + Dart Sass + PostCSS + Prettier + stylelint + ESLint）
+- Web制作のためのボイラープレートです
 - Visual Studio CodeとそのプラグインおよびNode.jsを使用します
 - HTML、Dart Sass、Vanilla JSの使用を想定しています
 - モジュールバンドラとして[Vite](https://ja.vitejs.dev/)を使用します

@@ -6,7 +6,8 @@
 	"scripts": {
 		"dev": "vite --host",
 		"build": "vite build --emptyOutDir && prettier --write dist/**/*.html",
-		"preview": "vite preview"
+		"preview": "vite preview",
+		"prepare": "simple-git-hooks"
 	},
 	"devDependencies": {
 		"autoprefixer": "^10.4.13",
@@ -14,10 +15,12 @@
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-import": "^2.26.0",
 		"eslint-plugin-unused-imports": "^2.0.0",
+		"lint-staged": "^13.1.0",
 		"postcss": "^8.4.20",
 		"postcss-sort-media-queries": "^4.3.0",
 		"prettier": "^2.8.1",
 		"sass": "^1.57.0",
+		"simple-git-hooks": "^2.8.1",
 		"stylelint": "^14.16.0",
 		"stylelint-config-prettier-scss": "^0.0.1",
 		"stylelint-config-recess-order": "^3.0.0",
@@ -28,5 +31,20 @@
 	},
 	"volta": {
 		"node": "16.18.1"
+	},
+	"lint-staged": {
+		"src/**/*.js": [
+			"prettier --write --loglevel=warn",
+			"eslint --fix --quiet"
+		],
+		"src/**/*.scss": [
+			"stylelint --fix --quiet"
+		],
+		"src/**/*.html,json": [
+			"prettier --write --loglevel=error"
+		]
+	},
+	"simple-git-hooks": {
+		"pre-commit": "npx lint-staged"
 	}
 }

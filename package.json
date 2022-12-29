@@ -29,6 +29,9 @@
 		"vite-plugin-handlebars": "^1.6.0",
 		"vite-plugin-imagemin": "^0.6.1"
 	},
+	"dependencies": {
+		"destyle.css": "^4.0.0"
+	},
 	"volta": {
 		"node": "16.18.1"
 	},
@@ -47,4 +50,5 @@
 	"simple-git-hooks": {
 		"pre-commit": "npx lint-staged"
 	}
+
 }

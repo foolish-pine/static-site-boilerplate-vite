@@ -1,14 +1,11 @@
 module.exports = {
 	extends: ["stylelint-config-standard-scss", "stylelint-config-recess-order"],
 	rules: {
-		"declaration-block-no-duplicate-properties": true,
-		"declaration-block-no-redundant-longhand-properties": null,
 		indentation: "tab",
 		"keyframes-name-pattern": null,
 		"scss/at-function-pattern": null,
 		"scss/at-mixin-pattern": null,
 		"scss/dollar-variable-pattern": null,
-		"scss/no-duplicate-dollar-variables": true,
 		"scss/percent-placeholder-pattern": null,
 		"scss/selector-no-union-class-name": true,
 		"selector-class-pattern": null,

@@ -10,9 +10,6 @@ h1 {
 
 .top-sample-block {
 	padding-top: 20px;
-	padding-right: 30px;
-	padding-bottom: 32px;
-	padding-left: 12px;
 	font-size: rem(24);
 
 	@include mq_hover {

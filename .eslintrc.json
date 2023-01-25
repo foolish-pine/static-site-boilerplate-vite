@@ -8,7 +8,7 @@
 		"sourceType": "module",
 		"ecmaVersion": "latest"
 	},
-	"extends": ["eslint:recommended", "prettier"],
+	"extends": ["eslint:recommended"],
 	"plugins": ["import", "unused-imports"],
 	"rules": {
 		"import/order": [2, { "alphabetize": { "order": "asc" } }],

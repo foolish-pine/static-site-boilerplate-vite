@@ -44,10 +44,9 @@
 	},
 	"lint-staged": {
 		"src/**/*.js": [
-			"prettier --write --loglevel=warn",
 			"eslint --fix --quiet"
 		],
-		"src/**/*.scss": [
+		"src/**/*.css,scss": [
 			"stylelint --fix --quiet"
 		],
 		"src/**/*.html,json": [

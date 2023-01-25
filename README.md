@@ -18,51 +18,6 @@ Node.jsのバージョン管理には[Volta](https://volta.sh/)を使用する�
 6. Gitを使用する場合は、`git init`のあとに`npx simple-git-hooks`を実行する
 7. コーディングを開始する
 
-## 設定ファイル
-- `.vscode`ディレクトリ  
-Visual Studio Codeの設定ファイルを格納するディレクトリ。
-このディレクトリのファイルに記述した設定はプロジェクト内でのみ有効となる。
-
-- `.vscode/extensions.json`  
-プロジェクトにおけるVisual Studio Codeの推奨プラグインを記述したファイル。
-
-- `.vscode/settings.json`  
-Visual Studio Codeの設定ファイル。
-
-- `.browserslistrc`  
-対応ブラウザを指定するファイル。
-
-- `.editorconfig`  
-EditorConfigの設定ファイル。使用するルールについては後述。
-
-- `.eslintrc.json`  
-ESLintの設定ファイル。使用するルールについては後述。
-
-- `.gitignore`  
-Gitの追跡対象にしないファイル・ディレクトリを記述する。
-プロジェクトをGitで管理する場合、以下のファイル・ディレクトリは追跡対象としない。
-	- `node_modules`
-	- `.DS_Store`
-	- `dist`
-
-- `.stylelintrc.json`  
-stylelintの設定ファイル。使用するルールについては後述。
-
-- `package-lock.json`  
-使用するパッケージのバージョンを固定するためのファイル。
-
-- `package.json`  
-プロジェクトで使用するパッケージを記載したファイル。
-
-- `postcss.config.cjs`  
-PostCSSの設定ファイル。
-
-- `README.md`  
-本ドキュメント。
-
-- `vite.config.js`  
-Viteの設定ファイル。
-
 ## コマンド
 - `dev`  
 開発用サーバーを立ち上げる。
@@ -73,6 +28,12 @@ Viteの設定ファイル。
 
 - `preview`  
 ローカルで静的なサーバーを起動し、distのファイルをlocalhostで配信する。プロダクションビルドが問題ないかどうかを自分のローカル環境で確認するために使用する。
+
+- `lint`
+lintする。
+
+- `fix`
+fixする。
 
 ## Gitフック
 - pre-commit  

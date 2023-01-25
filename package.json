@@ -6,7 +6,15 @@
 		"dev": "vite --host",
 		"build": "vite build --emptyOutDir && prettier --write dist/**/*.html",
 		"preview": "vite preview",
-		"prepare": "simple-git-hooks"
+		"prepare": "simple-git-hooks",
+		"lint": "run-p lint:*",
+		"lint:eslint": "eslint \"src/**/*.js\"",
+		"lint:prettier": "prettier --check src",
+		"lint:stylelint": "stylelint \"src/**/*.{css,scss}\"",
+		"fix": "run-p fix:*",
+		"fix:eslint": "npm run lint:eslint -- --fix",
+		"fix:prettier": "prettier --write src",
+		"fix:stylelint": "npm run lint:stylelint -- --fix"
 	},
 	"devDependencies": {
 		"autoprefixer": "^10.4.13",
@@ -15,6 +23,7 @@
 		"eslint-plugin-import": "^2.27.5",
 		"eslint-plugin-unused-imports": "^2.0.0",
 		"lint-staged": "^13.1.0",
+		"npm-run-all": "^4.1.5",
 		"postcss": "^8.4.21",
 		"postcss-sort-media-queries": "^4.3.0",
 		"prettier": "^2.8.3",

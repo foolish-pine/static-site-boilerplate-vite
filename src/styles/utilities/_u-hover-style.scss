@@ -2,7 +2,7 @@
 	u-hover-style
 	ホバーアクションのスタイル
 ------------------------------------ */
-@use "/scss/global" as *;
+@use "/styles/global" as *;
 
 .u-hover-transparent {
 	transition: opacity 0.4s;

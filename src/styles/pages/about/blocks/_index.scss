@@ -1,8 +1,4 @@
 /* ----------------------------------
-	test-style
+	blocks
 ------------------------------------ */
-@use "/scss/global" as *;
-
-.test-style {
-	font-size: rem(24);
-}
+@forward "/styles/pages/about/blocks/test-style";

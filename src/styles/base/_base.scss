@@ -2,7 +2,7 @@
 	base
 	リセットCSSに含まれていないがサイト全体に適用したいスタイルを定義する
 ------------------------------------ */
-@use "/scss/global" as *;
+@use "/styles/global" as *;
 
 html {
 	overflow-x: hidden;

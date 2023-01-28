@@ -1,4 +1,8 @@
 /* ----------------------------------
-	blocks
+	test-style
 ------------------------------------ */
-@forward "/scss/pages/top/blocks/top-sample-block";
+@use "/styles/global" as *;
+
+.test-style {
+	font-size: rem(24);
+}

@@ -2,7 +2,7 @@
 	u-device-only
 	画面幅に応じた表示・非表示用スタイル
 ------------------------------------ */
-@use "/scss/global" as *;
+@use "/styles/global" as *;
 
 .u-mobile-only {
 	display: none;

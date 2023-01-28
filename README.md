@@ -29,10 +29,10 @@ Node.jsのバージョン管理には[Volta](https://volta.sh/)を使用する�
 - `preview`  
 ローカルで静的なサーバーを起動し、distのファイルをlocalhostで配信する。プロダクションビルドが問題ないかどうかを自分のローカル環境で確認するために使用する。
 
-- `lint`
+- `lint`  
 lintする。
 
-- `fix`
+- `fix`  
 fixする。
 
 ## Gitフック

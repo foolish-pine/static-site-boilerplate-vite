@@ -7,7 +7,7 @@
 .u-mobile-only {
 	display: none;
 
-	@include mq_max_md {
+	@include mq(md) {
 		display: block;
 	}
 }
@@ -15,7 +15,7 @@
 .u-desktop-only {
 	display: block;
 
-	@include mq_max_md {
+	@include mq(md) {
 		display: none;
 	}
 }

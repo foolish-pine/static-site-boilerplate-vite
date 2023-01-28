@@ -1,7 +1,8 @@
 /* ----------------------------------
-	u-uppercase
-	テキストを大文字で表示する
+	hp_ttu
 ------------------------------------ */
-.u-uppercase {
+@use "/styles/global" as *;
+
+.hp_ttu {
 	text-transform: uppercase !important;
 }

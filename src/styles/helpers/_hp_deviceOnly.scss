@@ -1,21 +1,21 @@
 /* ----------------------------------
-	u-device-only
+	hp_deviceOnly
 	画面幅に応じた表示・非表示用スタイル
 ------------------------------------ */
 @use "/styles/global" as *;
 
-.u-mobile-only {
-	display: none;
+.hp_mobileOnly {
+	display: none !important;
 
 	@include mq(md) {
-		display: block;
+		display: block !important;
 	}
 }
 
-.u-desktop-only {
-	display: block;
+.hp_desktopOnly {
+	display: block !important;
 
 	@include mq(md) {
-		display: none;
+		display: none !important;
 	}
 }

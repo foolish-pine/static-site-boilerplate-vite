@@ -94,6 +94,7 @@ fixする。
 - [ESLint](https://eslint.org/)を使用する
 - ベースのルールとして[eslint:recommended](https://eslint.org/docs/rules/)を使用する
 - プラグインとして以下を使用する
+  - [eslint-plugin-css-import-order](https://www.npmjs.com/package/eslint-plugin-css-import-order)
 	- [eslint-plugin-import](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/order.md)
 	- [eslint-plugin-unused-imports](https://github.com/sweepline/eslint-plugin-unused-imports)
 

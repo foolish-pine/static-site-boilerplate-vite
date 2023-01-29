@@ -1,7 +1,6 @@
-# Web制作ボイラープレート（Vite + Dart Sass + PostCSS + Prettier + stylelint + ESLint）
+# static-site-boilerplate-vite
 - Web制作のためのボイラープレートです
 - Visual Studio CodeとそのプラグインおよびNode.jsを使用します
-- HTML、Dart Sass、Vanilla JSの使用を想定しています
 - モジュールバンドラとして[Vite](https://ja.vitejs.dev/)を使用します
 - 各種設定は必要に応じて変更してください
 
@@ -50,10 +49,6 @@ fixする。
 
 プロジェクトの要件に合わせて変更すること。その場合、必要に応じて`.browserslistrc`も更新すること。
 
-#### コメント
-必要に応じてコメントを挿入する。  
-ただし、不要なコメントは削除する。なんらかの理由でコメントアウトしたコードを残す場合は、その理由もコメントで残しておく。
-
 #### Visual Studio Codeプラグイン
 以下のプラグインを使用すること。
 
@@ -86,27 +81,21 @@ fixする。
 	- [postcss-sort-media-queries](https://github.com/solversgroup/postcss-sort-media-queries)
 - プレフィックスの付与は`.browserslistrc`に基づく
 
-#### リンター
+#### リンター・フォーマッター
 - [stylelint](https://stylelint.io/)を使用する
 - ベースのルールとして[stylelint-config-standard-scss](https://github.com/stylelint-scss/stylelint-config-standard-scss)を使用する
-
-#### フォーマッター
-- [Prettier](https://prettier.io/)を使用する
 - プロパティの並び順は[stylelint-config-recess-order](https://github.com/stormwarning/stylelint-config-recess-order)に準拠する
 
 ### JavaScript
 #### モジュールバンドラ
 - [Vite](https://ja.vitejs.dev/)を使用する。
 
-#### リンター
+#### リンター・フォーマッター
 - [ESLint](https://eslint.org/)を使用する
 - ベースのルールとして[eslint:recommended](https://eslint.org/docs/rules/)を使用する
 - プラグインとして以下を使用する
 	- [eslint-plugin-import](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/order.md)
 	- [eslint-plugin-unused-imports](https://github.com/sweepline/eslint-plugin-unused-imports)
-
-#### フォーマッター
-- [Prettier](https://prettier.io/)を使用する
 
 ### 画像
 #### 最適化

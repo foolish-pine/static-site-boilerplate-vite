@@ -43,13 +43,13 @@
 		"node": "16.19.0"
 	},
 	"lint-staged": {
-		"src/**/*.js": [
+		"**/*.js": [
 			"eslint --fix --quiet"
 		],
-		"src/**/*.css,scss": [
+		"**/*.{css,scss}": [
 			"stylelint --fix --quiet"
 		],
-		"src/**/*.html,json": [
+		"**/*.{html,json}": [
 			"prettier --write --loglevel=error"
 		]
 	},

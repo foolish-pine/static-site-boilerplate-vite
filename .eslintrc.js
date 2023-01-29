@@ -11,7 +11,15 @@ module.exports = {
 	extends: ["eslint:recommended", "plugin:css-import-order/recommended"],
 	plugins: ["import", "unused-imports"],
 	rules: {
-		"import/order": [2, { alphabetize: { order: "asc" } }],
+		"import/order": [
+      "warn",
+      {
+        groups: ["builtin", "external", "internal", ["parent", "sibling"], "index", "object", "type"],
+        "newlines-between": "never",
+        pathGroupsExcludedImportTypes: ["builtin"],
+        alphabetize: { order: "asc", caseInsensitive: true },
+      },
+    ],
 		"unused-imports/no-unused-imports": "error",
 	},
 };

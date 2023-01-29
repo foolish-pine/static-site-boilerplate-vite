@@ -49,7 +49,7 @@
 		"**/*.{css,scss}": [
 			"stylelint --fix --quiet"
 		],
-		"**/*.{html,json}": [
+		"**/*.{html,json,jsonc}": [
 			"prettier --write --loglevel=error"
 		]
 	},

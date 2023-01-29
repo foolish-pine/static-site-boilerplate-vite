@@ -8,7 +8,7 @@ module.exports = {
 		sourceType: "module",
 		ecmaVersion: "latest",
 	},
-	extends: ["eslint:recommended", "plugin:css-import-order/recommended"],
+	extends: ["eslint:recommended", "plugin:css-import-order/recommended", "prettier"],
 	plugins: ["import", "unused-imports"],
 	rules: {
 		"import/order": [

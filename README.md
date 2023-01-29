@@ -12,7 +12,7 @@ Node.jsのバージョン管理には[Volta](https://volta.sh/)を使用する�
 1. zip形式で本レポジトリをダウンロードする
 2. zipファイルを解凍し、フォルダ名を任意のプロジェクト名に変更する
 3. プロジェクトのディレクトリに移動し、`npm i`コマンドを実行してパッケージをインストールする
-4. [必要なVisual Studio Codeプラグイン](#visual-studio-code%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3)をインストール・有効化する
+4. 必要なVisual Studio Codeプラグインをインストール・有効化する
 5. 必要に応じて、README.mdや各種設定ファイルを編集する
 6. Gitを使用する場合は、`git init`のあとに`npx simple-git-hooks`を実行する
 7. コーディングを開始する

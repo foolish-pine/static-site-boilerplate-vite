@@ -36,7 +36,7 @@ fixする。
 
 ## コーディングルール
 ### コーディング全般
-## Node.js
+### Node.js
 - Node.jsのバージョン管理には[Volta](https://volta.sh/)を使用する
 
 #### 対応ブラウザ

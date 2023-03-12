@@ -58,7 +58,7 @@ fixする。
 
 ### HTML
 #### フォーマッター
-- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)を使用する
+- [Prettier](https://prettier.io/)を使用する
 
 #### HTMLファイルの分割
 - [vite-plugin-handlebars](https://github.com/alexlafroscia/vite-plugin-handlebars)を使用し、HTMLファイルを[Handlebars](https://handlebarsjs.com/)として扱う。これにより、ページ共通のHTMLをパーツとして切り出すことができる
@@ -80,17 +80,20 @@ fixする。
 	- [postcss-sort-media-queries](https://github.com/solversgroup/postcss-sort-media-queries)
 - プレフィックスの付与は`.browserslistrc`に基づく
 
-#### リンター・フォーマッター
+#### リンター
 - [stylelint](https://stylelint.io/)を使用する
 - ベースのルールとして[stylelint-config-standard-scss](https://github.com/stylelint-scss/stylelint-config-standard-scss)を使用する
 - プロパティの並び順は[stylelint-config-recess-order](https://github.com/stormwarning/stylelint-config-recess-order)に準拠する
+
+#### フォーマッター
+- [Prettier](https://prettier.io/)を使用する
 
 ### JavaScript
 #### モジュールバンドラ
 - [Vite](https://ja.vitejs.dev/)を使用する。
 
 #### リンター・フォーマッター
-- [ESLint](https://eslint.org/)を使用する
+- [ESLint](https://eslint.org/)と[Prettier](https://prettier.io/)を使用する
 - ベースのルールとして[eslint:recommended](https://eslint.org/docs/rules/)を使用する
 - プラグインとして以下を使用する
   - [eslint-plugin-css-import-order](https://www.npmjs.com/package/eslint-plugin-css-import-order)

@@ -9,12 +9,12 @@
 		"prepare": "simple-git-hooks",
 		"lint": "run-p lint:*",
 		"lint:eslint": "eslint \"src/**/*.js\"",
-		"lint:prettier": "prettier --check src",
 		"lint:stylelint": "stylelint \"src/**/*.{css,scss}\"",
-		"fix": "run-p fix:*",
+		"lint:prettier": "prettier --check src",
+		"fix": "run-s fix:eslint fix:stylelint fix:prettier",
 		"fix:eslint": "npm run lint:eslint -- --fix",
-		"fix:prettier": "prettier --write src",
-		"fix:stylelint": "npm run lint:stylelint -- --fix"
+		"fix:stylelint": "npm run lint:stylelint -- --fix",
+		"fix:prettier": "prettier --write src"
 	},
 	"devDependencies": {
 		"autoprefixer": "^10.4.14",
@@ -45,7 +45,8 @@
 	},
 	"lint-staged": {
 		"**/*.js": [
-			"eslint --fix --quiet"
+			"eslint --fix --quiet",
+			"prettier --write --loglevel=error"
 		],
 		"**/*.{css,scss}": [
 			"stylelint --fix --quiet",

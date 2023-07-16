@@ -3,10 +3,10 @@
 	"private": true,
 	"version": "1.0.0",
 	"scripts": {
+		"prepare": "npx simple-git-hooks",
 		"start": "vite --host",
 		"build": "vite build --emptyOutDir && prettier --write dist/**/*.html",
 		"preview": "vite preview",
-		"prepare": "simple-git-hooks",
 		"lint": "run-p lint:*",
 		"lint:eslint": "eslint \"src/**/*.js\"",
 		"lint:stylelint": "stylelint \"src/**/*.{css,scss}\"",

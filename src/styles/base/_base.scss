@@ -1,7 +1,3 @@
-/* ----------------------------------
-	base
-	リセットCSSに含まれていないがサイト全体に適用したいスタイルを定義する
------------------------------------- */
 @use "/styles/global" as *;
 
 html {
@@ -28,9 +24,8 @@ img {
 
 /* stylelint-disable */
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
-	// Google Chromeのみ以下のスタイルを適用する
+	// Google Chrome
 	img {
-		// 画像がぼやけるバグを修正するためのスタイル
 		image-rendering: -webkit-optimize-contrast;
 	}
 }

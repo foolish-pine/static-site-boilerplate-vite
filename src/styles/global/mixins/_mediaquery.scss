@@ -1,7 +1,3 @@
-/* ----------------------------------
-	mediaquery
-	メディアクエリのmixin
------------------------------------- */
 $breakpoints: (
 	"sm": 576px,
 	"md": 768px,
@@ -16,14 +12,12 @@ $breakpoints: (
 	}
 }
 
-// カスタムmax-widthメディアクエリ
 @mixin mq_custom($breakPoint) {
 	@media (max-width: $breakPoint) {
 		@content;
 	}
 }
 
-// hover動作が使えるかつ、ポインターがマウスポインターのデバイスのみを指定するメディアクエリ
 @mixin mq_hover {
 	@media (hover: hover) and (pointer: fine) {
 		@content;

@@ -41,7 +41,7 @@
 		"destyle.css": "^4.0.0"
 	},
 	"volta": {
-		"node": "18.16.1"
+		"node": "18.17.0"
 	},
 	"lint-staged": {
 		"**/*.js": [

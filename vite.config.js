@@ -4,7 +4,9 @@ import { defineConfig } from "vite";
 import handlebars from "vite-plugin-handlebars";
 import viteImagemin from "vite-plugin-imagemin";
 
-const metadata = JSON.parse(fs.readFileSync(resolve(__dirname, "./src/metadata.json")));
+const metadata = JSON.parse(
+	fs.readFileSync(resolve(__dirname, "./src/metadata.json")),
+);
 const fileNameList = fs.readdirSync(resolve(__dirname, "./src/"));
 const htmlFileList = fileNameList.filter((file) => /.html$/.test(file));
 const inputFiles = {};

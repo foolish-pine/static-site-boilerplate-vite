@@ -1,13 +1,13 @@
 @use "/styles/global" as *;
 
 h1 {
-	font-size: rem(36);
+	font-size: remUnit(36);
 	color: $c_black;
 }
 
 .top-sample-block {
 	padding-top: 20px;
-	font-size: rem(24);
+	font-size: remUnit(24);
 
 	@include mq_hover {
 		&:hover {

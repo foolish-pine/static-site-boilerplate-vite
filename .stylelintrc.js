@@ -9,6 +9,7 @@ module.exports = {
 		"scss/selector-no-union-class-name": true,
 		"selector-class-pattern": null,
 		"selector-id-pattern": null,
+		"function-name-case": null,
 	},
 	ignoreFiles: ["dist/**", "**/node_modules/**"],
 };

@@ -44,15 +44,15 @@
 		"node": "18.17.0"
 	},
 	"lint-staged": {
-		"**/*.js": [
+		"*.js": [
 			"eslint --fix --quiet",
 			"prettier --write --log-level=error"
 		],
-		"**/*.{css,scss}": [
+		"*.{css,scss}": [
 			"stylelint --fix --quiet",
 			"prettier --write --log-level=error"
 		],
-		"**/*.{html,json,jsonc}": [
+		"*.{html,json,jsonc}": [
 			"prettier --write --log-level=error"
 		]
 	},

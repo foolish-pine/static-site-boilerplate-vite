@@ -18,7 +18,7 @@
 	},
 	"devDependencies": {
 		"autoprefixer": "^10.4.15",
-		"eslint": "^8.48.0",
+		"eslint": "^8.49.0",
 		"eslint-config-prettier": "^9.0.0",
 		"eslint-plugin-css-import-order": "^1.1.0",
 		"eslint-plugin-import": "^2.28.1",
@@ -28,7 +28,7 @@
 		"postcss": "^8.4.29",
 		"postcss-sort-media-queries": "^5.2.0",
 		"prettier": "^3.0.3",
-		"sass": "^1.66.1",
+		"sass": "^1.67.0",
 		"simple-git-hooks": "^2.9.0",
 		"stylelint": "^15.10.3",
 		"stylelint-config-recess-order": "^4.3.0",

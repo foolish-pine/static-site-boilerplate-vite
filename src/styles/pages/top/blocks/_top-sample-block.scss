@@ -10,8 +10,6 @@ h1 {
 	font-size: remUnit(24);
 
 	@include mq_hover {
-		&:hover {
-			color: red;
-		}
+		color: red;
 	}
 }

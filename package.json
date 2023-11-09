@@ -11,7 +11,7 @@
 		"lint:eslint": "eslint \"src/**/*.js\"",
 		"lint:stylelint": "stylelint \"src/**/*.{css,scss}\"",
 		"lint:prettier": "prettier --check src",
-		"fix": "run-s fix:eslint fix:stylelint fix:prettier",
+		"fix": "run-s fix:{eslint,stylelint,prettier}",
 		"fix:eslint": "npm run lint:eslint -- --fix",
 		"fix:stylelint": "npm run lint:stylelint -- --fix",
 		"fix:prettier": "prettier --write src"

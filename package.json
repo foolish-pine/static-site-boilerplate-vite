@@ -38,7 +38,7 @@
 		"vite-plugin-imagemin": "^0.6.1"
 	},
 	"dependencies": {
-		"destyle.css": "^4.0.0"
+		"destyle.css": "^4.0.1"
 	},
 	"volta": {
 		"node": "20.9.0"

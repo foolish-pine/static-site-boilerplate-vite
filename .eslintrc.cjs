@@ -1,6 +1,5 @@
 module.exports = {
 	env: {
-		es2022: true,
 		browser: true,
 		node: true,
 	},
@@ -8,11 +7,7 @@ module.exports = {
 		sourceType: "module",
 		ecmaVersion: "latest",
 	},
-	extends: [
-		"eslint:recommended",
-		"plugin:css-import-order/recommended",
-		"prettier",
-	],
+	extends: ["eslint:recommended", "prettier"],
 	plugins: ["import", "unused-imports"],
 	rules: {
 		"import/order": [

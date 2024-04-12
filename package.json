@@ -9,7 +9,7 @@
 		"build": "vite build --emptyOutDir && prettier --write dist/**/*.html",
 		"preview": "vite preview",
 		"lint": "run-p lint:*",
-		"lint:eslint": "ESLINT_USE_FLAT_CONFIG=true eslint \"src/**/*.js\"",
+		"lint:eslint": "eslint \"src/**/*.js\"",
 		"lint:stylelint": "stylelint \"src/**/*.{css,scss}\"",
 		"lint:prettier": "prettier --check src",
 		"fix": "run-s fix:{eslint,stylelint,prettier}",
@@ -22,7 +22,7 @@
 	},
 	"devDependencies": {
 		"@eslint/js": "^9.0.0",
-		"eslint": "^8.57.0",
+		"eslint": "^9.0.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-simple-import-sort": "^12.0.0",
 		"globals": "^15.0.0",

@@ -17,6 +17,9 @@
 		"fix:stylelint": "npm run lint:stylelint -- --fix",
 		"fix:prettier": "prettier --write src"
 	},
+	"dependencies": {
+		"destyle.css": "^4.0.1"
+	},
 	"devDependencies": {
 		"@eslint/js": "^9.0.0",
 		"eslint": "^8.57.0",
@@ -38,9 +41,6 @@
 		"vite": "^5.2.8",
 		"vite-plugin-handlebars": "^2.0.0",
 		"vite-plugin-imagemin": "^0.6.1"
-	},
-	"dependencies": {
-		"destyle.css": "^4.0.1"
 	},
 	"volta": {
 		"node": "20.12.0"

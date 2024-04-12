@@ -11,5 +11,5 @@ module.exports = {
 		"selector-id-pattern": null,
 		"function-name-case": null,
 	},
-	ignoreFiles: ["dist/**", "**/node_modules/**"],
+	ignoreFiles: ["dist/**", "node_modules/**"],
 };

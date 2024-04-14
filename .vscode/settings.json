@@ -20,5 +20,8 @@
 	},
 	"[json][jsonc]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[yml]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	}
 }

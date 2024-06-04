@@ -10,11 +10,11 @@
 		"lint": "run-p lint:*",
 		"lint:eslint": "eslint \"src/**/*.js\"",
 		"lint:stylelint": "stylelint \"src/**/*.{css,scss}\"",
-		"lint:prettier": "prettier --check src",
+		"lint:prettier": "prettier --check .",
 		"fix": "run-s fix:{eslint,stylelint,prettier}",
 		"fix:eslint": "npm run lint:eslint -- --fix",
 		"fix:stylelint": "npm run lint:stylelint -- --fix",
-		"fix:prettier": "prettier --write src"
+		"fix:prettier": "prettier --write ."
 	},
 	"dependencies": {
 		"destyle.css": "^4.0.1"

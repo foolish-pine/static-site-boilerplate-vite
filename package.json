@@ -39,6 +39,6 @@
     "vite-plugin-handlebars": "2.0.0"
   },
   "volta": {
-    "node": "20.14.0"
+    "node": "20.15.0"
   }
 }

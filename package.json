@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "vite --host",
-    "build": "vite build --emptyOutDir && prettier --write dist/**/*.html",
+    "build": "vite build --emptyOutDir",
     "preview": "vite preview",
     "lint": "run-p lint:*",
     "lint:eslint": "eslint \"src/**/*.js\"",

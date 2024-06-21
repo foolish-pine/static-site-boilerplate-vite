@@ -1,15 +1,15 @@
 @use "/styles/global" as *;
 
 h1 {
-	font-size: toRem(36);
-	color: $c_black;
+  font-size: toRem(36);
+  color: $c_black;
 }
 
 .top-sample-block {
-	padding-top: 20px;
-	font-size: toRem(24);
+  padding-top: 20px;
+  font-size: toRem(24);
 
-	@include mq_hover {
-		color: red;
-	}
+  @include mq_hover {
+    color: red;
+  }
 }

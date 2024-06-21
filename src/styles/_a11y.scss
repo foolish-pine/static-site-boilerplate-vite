@@ -1,12 +1,12 @@
 @use "/styles/global" as *;
 
 @media (prefers-reduced-motion: reduce) {
-	*,
-	*::before,
-	*::after,
-	*::backdrop {
-		transition: none !important;
-		animation: none !important;
-		scroll-behavior: auto !important;
-	}
+  *,
+  *::before,
+  *::after,
+  *::backdrop {
+    transition: none !important;
+    animation: none !important;
+    scroll-behavior: auto !important;
+  }
 }

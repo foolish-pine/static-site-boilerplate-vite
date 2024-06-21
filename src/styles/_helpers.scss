@@ -1,29 +1,29 @@
 @use "/styles/global" as *;
 
 .hp_mobileOnly {
-	display: none !important;
+  display: none !important;
 
-	@include mq(md) {
-		display: block !important;
-	}
+  @include mq(md) {
+    display: block !important;
+  }
 }
 
 .hp_desktopOnly {
-	display: block !important;
+  display: block !important;
 
-	@include mq(md) {
-		display: none !important;
-	}
+  @include mq(md) {
+    display: none !important;
+  }
 }
 
 .hp_hoverTransparent {
-	transition: opacity 0.4s !important;
+  transition: opacity 0.4s !important;
 
-	@include mq_hover {
-		opacity: 0.6 !important;
-	}
+  @include mq_hover {
+    opacity: 0.6 !important;
+  }
 }
 
 .hp_ttu {
-	text-transform: uppercase !important;
+  text-transform: uppercase !important;
 }

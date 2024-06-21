@@ -1,30 +1,30 @@
 $breakpoints: (
-	"sm": 576px,
-	"md": 768px,
-	"lg": 992px,
-	"xl": 1200px,
+  "sm": 576px,
+  "md": 768px,
+  "lg": 992px,
+  "xl": 1200px,
 );
 
 @mixin mq($size) {
-	@media (#{map-get($breakpoints, $size)} <= width) {
-		@content;
-	}
+  @media (#{map-get($breakpoints, $size)} <= width) {
+    @content;
+  }
 }
 
 @mixin mq_custom($breakPoint) {
-	@media ($breakPoint <= width) {
-		@content;
-	}
+  @media ($breakPoint <= width) {
+    @content;
+  }
 }
 
 @mixin mq_hover {
-	@media (any-hover: hover) {
-		&:hover {
-			@content;
-		}
-	}
+  @media (any-hover: hover) {
+    &:hover {
+      @content;
+    }
+  }
 
-	&:focus-visible {
-		@content;
-	}
+  &:focus-visible {
+    @content;
+  }
 }

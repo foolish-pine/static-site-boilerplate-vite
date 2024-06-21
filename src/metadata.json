@@ -1,12 +1,12 @@
 {
-	"/index.html": {
-		"pageName": "top",
-		"title": "Home",
-		"description": "Home"
-	},
-	"/about.html": {
-		"pageName": "about",
-		"title": "about",
-		"description": "about"
-	}
+  "/index.html": {
+    "pageName": "top",
+    "title": "Home",
+    "description": "Home"
+  },
+  "/about.html": {
+    "pageName": "about",
+    "title": "about",
+    "description": "about"
+  }
 }

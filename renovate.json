@@ -1,8 +1,8 @@
 {
-	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"extends": ["config:best-practices"],
-	"prConcurrentLimit": 0,
-	"prHourlyLimit": 0,
-	"schedule": ["before 4am"],
-	"timezone": "Asia/Tokyo"
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:best-practices"],
+  "prConcurrentLimit": 0,
+  "prHourlyLimit": 0,
+  "schedule": ["before 4am"],
+  "timezone": "Asia/Tokyo"
 }

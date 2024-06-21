@@ -1,45 +1,45 @@
 @use "/styles/global" as *;
 
 html {
-	overflow: hidden auto;
+  overflow: hidden auto;
 }
 
 body {
-	font-family: $f_yuGothic, sans-serif;
-	font-size: toRem(16);
-	line-height: 1;
-	color: $c_black;
-	word-break: normal;
-	overflow-wrap: anywhere;
-	line-break: strict;
+  font-family: $f_yuGothic, sans-serif;
+  font-size: toRem(16);
+  line-height: 1;
+  color: $c_black;
+  word-break: normal;
+  overflow-wrap: anywhere;
+  line-break: strict;
 }
 
 li {
-	list-style: none;
+  list-style: none;
 }
 
 img {
-	max-width: 100%;
-	height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 dialog {
-	width: unset;
-	max-width: unset;
-	height: unset;
-	max-height: unset;
-	padding: unset;
-	overflow: unset;
-	color: unset;
-	background-color: unset;
-	border: unset;
+  width: unset;
+  max-width: unset;
+  height: unset;
+  max-height: unset;
+  padding: unset;
+  overflow: unset;
+  color: unset;
+  background-color: unset;
+  border: unset;
 }
 
 /* stylelint-disable */
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
-	// Google Chrome
-	img {
-		image-rendering: -webkit-optimize-contrast;
-	}
+  // Google Chrome
+  img {
+    image-rendering: -webkit-optimize-contrast;
+  }
 }
 /* stylelint-enable */

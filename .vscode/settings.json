@@ -8,7 +8,6 @@
   "scss.validate": false,
   "stylelint.validate": ["css", "scss"],
   "eslint.validate": ["javascript"],
-  "eslint.useFlatConfig": true,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },

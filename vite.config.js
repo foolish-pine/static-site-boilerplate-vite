@@ -18,7 +18,6 @@ export default defineConfig({
     host: true,
     open: true,
   },
-  root: "./src",
   build: {
     rollupOptions: {
       input,

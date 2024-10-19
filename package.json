@@ -25,7 +25,7 @@
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-simple-import-sort": "12.1.1",
     "globals": "15.11.0",
-    "lefthook": "1.7.21",
+    "lefthook": "1.7.22",
     "npm-run-all2": "6.2.3",
     "postcss": "8.4.47",
     "postcss-preset-env": "10.0.7",

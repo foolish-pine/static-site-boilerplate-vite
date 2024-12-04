@@ -39,6 +39,6 @@
     "vite-plugin-handlebars": "2.0.0"
   },
   "volta": {
-    "node": "22.11.0"
+    "node": "22.12.0"
   }
 }

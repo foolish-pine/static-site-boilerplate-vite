@@ -1,4 +1,4 @@
 import "destyle.css";
-import "/src/styles/pages/about/style.css";
+import "/styles/pages/about/style.css";
 
 console.log("about");

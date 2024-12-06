@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
-@import url("/src/styles/base.css");
-@import url("/src/styles/helpers.css");
-@import url("/src/styles/a11y.css");
-@import url("/src/styles/common-blocks/index.css");
-@import url("/src/styles/pages/about/blocks/index.css");
+@import url("/styles/base.css");
+@import url("/styles/helpers.css");
+@import url("/styles/a11y.css");
+@import url("/styles/common-blocks/index.css");
+@import url("/styles/pages/about/blocks/index.css");

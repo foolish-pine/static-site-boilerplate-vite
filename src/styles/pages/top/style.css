@@ -2,6 +2,5 @@
 
 @import url("/styles/base.css");
 @import url("/styles/helpers.css");
-@import url("/styles/a11y.css");
 @import url("/styles/common-blocks/index.css");
 @import url("/styles/pages/top/blocks/index.css");

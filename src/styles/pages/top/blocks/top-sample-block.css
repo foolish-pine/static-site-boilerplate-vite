@@ -1,0 +1,14 @@
+.top-sample-block {
+  padding-top: 20px;
+  font-size: calc(24 / 16 * 1rem);
+
+  @media (any-hover: hover) {
+    &:hover {
+      color: red;
+    }
+  }
+
+  &:focus-visible {
+    color: red;
+  }
+}

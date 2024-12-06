@@ -5,13 +5,12 @@
     "source.fixAll.eslint": "explicit"
   },
   "css.validate": false,
-  "scss.validate": false,
-  "stylelint.validate": ["css", "scss"],
+  "stylelint.validate": ["css"],
   "eslint.validate": ["javascript"],
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[css][scss]": {
+  "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {

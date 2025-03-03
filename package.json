@@ -30,7 +30,7 @@
     "postcss": "8.5.3",
     "postcss-preset-env": "10.1.5",
     "postcss-sort-media-queries": "5.2.0",
-    "prettier": "3.5.2",
+    "prettier": "3.5.3",
     "stylelint": "16.15.0",
     "stylelint-config-recess-order": "6.0.0",
     "stylelint-config-standard": "37.0.0",

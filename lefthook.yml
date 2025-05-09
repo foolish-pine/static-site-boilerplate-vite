@@ -1,7 +1,8 @@
 pre-commit:
   parallel: true
   jobs:
-    - group:
+    - name: lint-and-format
+      group:
         piped: true
         jobs:
           - group:

@@ -1,11 +1,14 @@
 pre-commit:
-  piped: true
-  commands:
-    1_eslint:
-      glob: "*.{js,cjs}"
-      run: npx eslint --fix --quiet {staged_files}
-    2_stylelint:
-      glob: "*.css"
-      run: npx stylelint --fix --quiet {staged_files}
-    3_prettier:
-      run: npx prettier --write --log-level=error --ignore-unknown {staged_files}
+  parallel: true
+  jobs:
+    - group:
+        piped: true
+        jobs:
+          - group:
+              parallel: true
+              jobs:
+                - run: npm run fix:eslint {staged_files}
+                  glob: "*.{js,cjs}"
+                - run: npm run fix:stylelint {staged_files}
+                  glob: "*.css"
+          - run: npm run fix:prettier --files={staged_files}

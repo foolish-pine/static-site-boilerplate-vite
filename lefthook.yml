@@ -8,8 +8,8 @@ pre-commit:
           - group:
               parallel: true
               jobs:
-                - run: npm run fix:eslint {staged_files}
+                - run: npx eslint {staged_files} --fix
                   glob: "*.{js,cjs}"
-                - run: npm run fix:stylelint {staged_files}
+                - run: npx stylelint {staged_files} --fix
                   glob: "*.css"
-          - run: npm run fix:prettier --files={staged_files}
+          - run: npx prettier {staged_files} --write --check --ignore-unknown

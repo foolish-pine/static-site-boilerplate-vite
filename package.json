@@ -32,7 +32,7 @@
     "prettier": "3.6.2",
     "stylelint": "16.24.0",
     "stylelint-config-recess-order": "7.3.0",
-    "stylelint-config-standard": "39.0.0",
+    "stylelint-config-standard": "39.0.1",
     "vite": "7.1.11"
   },
   "volta": {

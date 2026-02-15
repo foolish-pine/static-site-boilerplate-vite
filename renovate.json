@@ -7,6 +7,18 @@
     {
       "matchManagers": ["github-actions"],
       "minimumReleaseAge": null
+    },
+    {
+      "matchPackageNames": ["postcss", "postcss-*"],
+      "groupName": "postcss"
+    },
+    {
+      "matchPackageNames": ["eslint", "@eslint/*", "eslint-*", "globals"],
+      "groupName": "eslint"
+    },
+    {
+      "matchPackageNames": ["stylelint", "stylelint-*"],
+      "groupName": "stylelint"
     }
   ]
 }

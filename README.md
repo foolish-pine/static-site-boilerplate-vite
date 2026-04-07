@@ -35,7 +35,7 @@ npx lefthook install
 
 ## Recommended IDE
 
-[Visual Studio Code](https://code.visualstudio.com/)
+[Visual Studio Code](https://code.visualstudio.com/) or its forks (e.g. [Cursor](https://www.cursor.com/))
 
 ## License
 

@@ -1,51 +1,34 @@
 # static-site-boilerplate-vite
 
-A Vite starter kit for static site development.
+A [Vite](https://vite.dev/) starter kit for static site development.
 
 ## Features
 
-- Use [Vite](https://ja.vitejs.dev/) as the module bundler
-- Lint and format files with [ESLint](https://eslint.org/), [Stylelint](https://stylelint.io/) and [Prettier](https://prettier.io/)
-- Use [Lefthook](https://github.com/evilmartians/lefthook) to run linters on Git staged files
-- Run linters on pull request using [GitHub Actions](https://github.co.jp/features/actions)
+- [Vite](https://vite.dev/) for build and dev server
+- [ESLint](https://eslint.org/) / [Stylelint](https://stylelint.io/) / [Prettier](https://prettier.io/) for linting and formatting
+- [Lefthook](https://github.com/evilmartians/lefthook) for pre-commit linting
+- [GitHub Actions](https://github.com/features/actions) for PR linting
 
 ## Requirements
 
 - [Volta](https://volta.sh/)
 
-## How to use
-
-Clone this repository and install the dependencies:
+## Setup
 
 ```bash
 npm i
+npx lefthook install
 ```
 
-## Available Commands
+## Commands
 
-### Start Development
-
-```bash
-npm start
-```
-
-### Build Scripts and Styles
-
-```bash
-npm run build
-```
-
-### Lint Files
-
-```bash
-npm run lint
-```
-
-### Fix Files
-
-```bash
-npm run fix
-```
+| Command | Description |
+| --- | --- |
+| `npm start` | Start dev server |
+| `npm run build` | Production build |
+| `npm run preview` | Preview build output |
+| `npm run lint` | Run linters |
+| `npm run fix` | Run linters with auto-fix |
 
 ## Recommended IDE
 

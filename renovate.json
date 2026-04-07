@@ -9,10 +9,6 @@
   },
   "packageRules": [
     {
-      "matchManagers": ["github-actions"],
-      "minimumReleaseAge": null
-    },
-    {
       "matchPackageNames": ["postcss", "postcss-*"],
       "groupName": "postcss"
     },

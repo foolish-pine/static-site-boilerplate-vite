@@ -16,7 +16,10 @@ A [Vite](https://vite.dev/) starter kit for static site development.
 ## Setup
 
 ```bash
+# Install dependencies
 npm i
+
+# Set up Git hooks
 npx lefthook install
 ```
 

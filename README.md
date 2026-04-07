@@ -22,14 +22,18 @@ npx lefthook install
 
 ## Commands
 
-| Command | Description |
-| --- | --- |
-| `npm start` | Start dev server |
-| `npm run build` | Production build |
-| `npm run preview` | Preview build output |
-| `npm run lint` | Run linters |
-| `npm run fix` | Run linters with auto-fix |
+| Command           | Description               |
+| ----------------- | ------------------------- |
+| `npm start`       | Start dev server          |
+| `npm run build`   | Production build          |
+| `npm run preview` | Preview build output      |
+| `npm run lint`    | Run linters               |
+| `npm run fix`     | Run linters with auto-fix |
 
 ## Recommended IDE
 
 [Visual Studio Code](https://code.visualstudio.com/)
+
+## License
+
+[MIT](./LICENSE)

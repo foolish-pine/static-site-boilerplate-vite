@@ -10,16 +10,16 @@
   },
   "packageRules": [
     {
-      "matchPackageNames": ["postcss", "postcss-*"],
-      "groupName": "postcss"
+      "groupName": "ESLint",
+      "matchPackageNames": ["eslint", "@eslint/*", "eslint-*"]
     },
     {
-      "matchPackageNames": ["eslint", "@eslint/*", "eslint-*", "globals"],
-      "groupName": "eslint"
+      "groupName": "PostCSS",
+      "matchPackageNames": ["postcss", "postcss-*"]
     },
     {
-      "matchPackageNames": ["stylelint", "stylelint-*"],
-      "groupName": "stylelint"
+      "groupName": "Stylelint",
+      "matchPackageNames": ["stylelint", "stylelint-*"]
     }
   ]
 }

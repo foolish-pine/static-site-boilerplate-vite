@@ -27,7 +27,7 @@
     "lefthook": "2.1.5",
     "npm-run-all2": "8.0.4",
     "postcss": "8.5.9",
-    "postcss-preset-env": "11.2.0",
+    "postcss-preset-env": "11.2.1",
     "prettier": "3.8.1",
     "stylelint": "17.6.0",
     "stylelint-config-recess-order": "7.7.0",

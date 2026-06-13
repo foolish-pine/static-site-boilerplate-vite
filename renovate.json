@@ -7,23 +7,5 @@
   "rebaseWhen": "never",
   "major": {
     "dependencyDashboardApproval": true
-  },
-  "packageRules": [
-    {
-      "groupName": "ESLint",
-      "matchPackageNames": ["eslint", "@eslint/*", "eslint-*"]
-    },
-    {
-      "groupName": "PostCSS",
-      "matchPackageNames": ["postcss", "postcss-*"]
-    },
-    {
-      "groupName": "Stylelint",
-      "matchPackageNames": ["stylelint", "stylelint-*"]
-    },
-    {
-      "matchUpdateTypes": ["major"],
-      "groupName": null
-    }
-  ]
+  }
 }

@@ -8,7 +8,6 @@ export default [
     ignores: ["dist/**"],
   },
   js.configs.recommended,
-  eslintConfigPrettier,
   {
     languageOptions: {
       ecmaVersion: "latest",
@@ -26,4 +25,5 @@ export default [
       "simple-import-sort/exports": "error",
     },
   },
+  eslintConfigPrettier,
 ];

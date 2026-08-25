@@ -7,7 +7,7 @@
     "build": "vite build --emptyOutDir",
     "preview": "vite preview",
     "lint": "run-p lint:*",
-    "lint:eslint": "eslint '**/*.{js,cjs}'",
+    "lint:eslint": "eslint '**/*.js'",
     "lint:stylelint": "stylelint '**/*.css'",
     "lint:prettier": "prettier . --check --ignore-unknown",
     "fix": "run-s fix:{eslint,stylelint,prettier}",

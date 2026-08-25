@@ -9,7 +9,7 @@ pre-commit:
               parallel: true
               jobs:
                 - run: npx eslint {staged_files} --fix
-                  glob: "*.{js,cjs}"
+                  glob: "*.js"
                 - run: npx stylelint {staged_files} --fix
                   glob: "*.css"
           - run: npx prettier {staged_files} --write --check --ignore-unknown

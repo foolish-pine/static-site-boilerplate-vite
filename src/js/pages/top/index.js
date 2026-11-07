@@ -1,6 +1,6 @@
 import "destyle.css";
-import "/styles/pages/top/style.css";
+import "#/styles/pages/top/style.css";
 
-import { hello } from "/js/components/hello";
+import { hello } from "#/js/components/hello.js";
 
 hello();

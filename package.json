@@ -2,6 +2,9 @@
   "name": "static-site-boilerplate-vite",
   "private": true,
   "type": "module",
+  "imports": {
+    "#/*": "./src/*"
+  },
   "scripts": {
     "start": "vite --host",
     "build": "vite build --emptyOutDir",
